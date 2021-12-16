@@ -1,8 +1,18 @@
 #Readme
 
-## This is a subtitle
+# Programming Basics - Lihang Yao
 
-### This is a little subtitle
+## Description 
+
+This is my description:
+
+* Basic programming skills in C, C++, JAVA for around one or two semesters.
+* Study in Digital Media Program before.
+* Barely working with code after graduate.
+
+## My HTML Capstone
+
+![mycapstonescreenshot](MyCapstone.png)
 
 * this is a bullet
 
