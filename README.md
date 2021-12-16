@@ -45,3 +45,8 @@ nav ul#navlist li a{
   transition: all .3s ease-in-out;
 }
 ```
+
+## Programming Tutorials
+---
+* [Introduction to Programming and Computer Science - Full Course](https://youtu.be/zOjov-2OZ0E)
+* [Learn web development as an absolute beginner (2021)](https://coder-coder.com/learn-web-development/)
