@@ -1,4 +1,5 @@
 // start
+
     // ask user for a number between 1 and 100
     // if number >= 1 and <= 100
         // for i = 1; i <= number; i++
@@ -8,4 +9,5 @@
     // else 
         // display error message
     // endif
+
 // Stop
