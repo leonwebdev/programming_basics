@@ -1,0 +1,8 @@
+// start
+    //assign i = 1
+    //do
+        //print i
+        //i++
+        //if i <= 50, loop
+    //endloop
+//stop
