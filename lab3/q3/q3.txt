@@ -1,0 +1,8 @@
+// start
+    //ask the user for a number less than 100
+    //assign i = number
+    //if i <= 100
+        //print i
+        //i++
+    //endloop
+//stop
