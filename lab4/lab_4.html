@@ -1,0 +1,21 @@
+<h1>Lab 4</h1>
+<p>Lihang Yao</p>
+
+<script>
+    var test_array=[true,false,'true','false',[],{},0,1,-1,5,'0','1',null,undefined,'',' ']
+    var len = test_array.length;
+    console.log('Length of array: ' + len);
+    console.log('----------');
+    for ( var index = 0; index < len ; index++) {
+        if (test_array[index]) {
+            var converter = test_array[index]+'';
+            console.log(converter + ' resolves to true');
+        }
+        else {
+            var converter = test_array[index]+'';
+            console.log(converter + ' resolves to false');
+        }
+        
+    }
+
+</script>
