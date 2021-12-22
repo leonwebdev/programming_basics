@@ -4,44 +4,44 @@
 <script>
     //define functions
     function add(input_1) {
-        var global_total = global_total + input_1;
+        global_total = global_total + input_1;
         return global_total;
     }
 
     function subtract(input_2) {
-        var global_total = global_total - input_2;
+        global_total = global_total - input_2;
         return global_total;
     }
 
     function multiply(input_3) {
-        var global_total = global_total * input_3;
+        global_total = global_total * input_3;
         return global_total;
     }
 
     function divide(input_4) {
-        var global_total = global_total / input_4;
+        global_total = global_total / input_4;
         return global_total;
     }
 
     function calculate(input_5, input_6) {
         switch (input_5){
             case '+' :
-                var global_total = add (input_6);
+                global_total = add (input_6);
                 console.log('+ ' + input_6 + ' = ' + global_total);
                 console.log('------------');
                 break;
             case '-' :
-                var global_total = subtract (input_6);
+                global_total = subtract (input_6);
                 console.log('- ' + input_6 + ' = ' + global_total);
                 console.log('------------');
                 break;
             case '*' :
-                var global_total = subtract (input_6);
+                global_total = subtract (input_6);
                 console.log('* ' + input_6 + ' = ' + global_total);
                 console.log('------------');
                 break;
             case '/' :
-                var global_total = subtract (input_6);
+                global_total = subtract (input_6);
                 console.log('/ ' + input_6 + ' = ' + global_total);
                 console.log('------------');
                 break;
@@ -54,6 +54,8 @@
     //ask for an operator and number
     var operator = prompt ('input your operator: ');
     var number = prompt ('input your number: ');
-    var global_total = calculate (operator,number);
+    number = parseInt(number);
+    global_total = calculate (operator,number);
+
 
 </script>
