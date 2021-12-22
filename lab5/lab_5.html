@@ -51,11 +51,15 @@
 
     //main function
     var global_total = 0;
+
+    do {
     //ask for an operator and number
     var operator = prompt ('input your operator: ');
     var number = prompt ('input your number: ');
     number = parseInt(number);
     global_total = calculate (operator,number);
-
-
+    }
+    while(confirm('Do you wanna do one more ?')){
+        console.log('Total: ' + global_total);
+    }
 </script>
