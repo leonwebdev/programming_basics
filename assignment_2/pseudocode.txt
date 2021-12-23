@@ -1,0 +1,17 @@
+//start
+
+    //for loop
+        //set i to 1
+        //if i less than or equal to 100
+        //i++
+            //if i is multiple both of 3 and 5
+                //print i FIZZBUZZ
+            //else if i is multiple of 3
+                //print i FIZZ
+            //else if i is multiple of 5
+                //print i BUZZ
+            //else
+                //print i
+    //end loop
+
+//stop
