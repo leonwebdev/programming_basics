@@ -1,4 +1,5 @@
 //start
+
     //for loop
         //set i to 1
         //if i less than or equal to 100
@@ -12,4 +13,5 @@
             //else
                 //print i
     //end loop
+
 //stop
